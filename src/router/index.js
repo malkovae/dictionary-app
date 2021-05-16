@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Home from '../views/Home.vue';
-import FavoritesWords from '../views/FavoritesWords.vue';
-
 Vue.use(VueRouter);
+
+const Home = () => import('../views/Home.vue');
+const FavoritesWords = () => import('../views/FavoritesWords.vue');
 
 const routes = [
   {
