@@ -1,9 +1,17 @@
 # dictionary-app
 
-## Описание
+## Description
 
- Приложение словарь с функционалом поиска слов и добавления в избранное.
- Для получения данных используется Words API (https://www.wordsapi.com).
+Dictionary application with word search functionality and adding to favorites.
+The Words API (https://www.wordsapi.com) is used to retrieve data.
+
+## Usage
+
+Create a .env file at the root path and enter your wordsapi key:
+
+`
+VUE_APP_RAPIDAPI_KEY=
+`
 
 ## Project setup
 ```
