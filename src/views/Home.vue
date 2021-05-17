@@ -8,6 +8,7 @@
       />
     </div>
     <div class="content-wrapper__display-panel">
+      <!-- TECHDEBT: To decompose the components from the view with their logic. -->
       <div v-if="$store.getters.isLoadingStatus" class="content-wrapper__display-panel-info">
         <b-spinner label="Loading..."/>
       </div>
@@ -55,6 +56,7 @@ export default {
         this.$bvToast.toast('Sorry, there was an error trying to get the data. Please try later', {
           title: 'Error',
           variant: 'danger',
+          toaster: 'b-toaster-bottom-full',
         });
       }
     },
