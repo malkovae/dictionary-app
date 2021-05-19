@@ -4,6 +4,7 @@
       <h2>Starred words list</h2>
     </div>
     <div class="content-wrapper__search-panel">
+      <!-- TECHDEBT: To decompose the components from the view with their logic. -->
       <SearchInput
         v-model="searchKeyword"
         placeholder="Input anything"

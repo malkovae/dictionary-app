@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="app-container">
     <div class="app-wrapper">
       <Header/>
       <router-view/>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-  .container {
+  .app-container {
     max-width: 1140px;
     margin: 0 auto;
   }
